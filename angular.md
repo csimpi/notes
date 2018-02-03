@@ -11,7 +11,7 @@ So I have an outdated system, I need upgrade npm, and node to install Angular 5.
 
 I got many troubles with this very easy task. Basically, I'm not a nodejs guy, just not my type, I'm running into deep issues, long struggles several times during working with it, but I keep trying.
 
-What I did?
+### What I did?
 Based on nodejs's docs I installed npm:
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -23,13 +23,23 @@ I updated and upgraded npm.
 I got ERROR messages about npm no longer works with node 5.
 
 After some googleing, I installed nvm.
+
 https://stackoverflow.com/questions/47158554/how-to-upgrade-npm-to-latest-from-v5-4-1-after-i-have-installed-nodejs-v9-0-0
 
 https://github.com/creationix/nvm#install-script
+
 I still got the ERROR about npm no loger works with node 5.
 
 I uninstalled node.
-sudo apt-get autoremove node
+
+`sudo apt-get autoremove node`
 
 Reinstall node with nvm
-nvm install 9
+
+`nvm install 9`
+
+# Install Angular
+`npm install -g @angular/cli`
+
+`ng new my-app`
+
