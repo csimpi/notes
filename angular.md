@@ -41,5 +41,15 @@ Reinstall node with nvm
 # Install Angular
 `npm install -g @angular/cli`
 
+
+### My bower just died
+I got some ugly error about missing modules. There are several different questions and answers, the solution is to me:
+
+Delete the old npm global modules from /user/local/lib/
+
+Then reinstall
+
+`npm install bower -g`
+
 `ng new my-app`
 
