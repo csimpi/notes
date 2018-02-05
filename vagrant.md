@@ -8,10 +8,14 @@ In every half year I wake up in a morning and notice my notebook completety free
 I'm going through on this 4. time, but it still a real pain in the ass, so I wanna make an emergency plan for this.
 
 ### Getting into your VM
-If a Vagrant VM has crashed you can't start your VAGRANT machine with a simple vagrant up command, you will get stucks, hangs, freezes, so let's avoid VAGRANT a liitle bit..
+If a Vagrant VM has crashed you can't start your VAGRANT machine with a simple vagrant up command, you will get stucks, hangs, freezes, so let's avoid VAGRANT a little bit..
 
 Go to Virtualbox, and start the VM from there. You will see what's happening, and maybe you will be able to reach some-kind of login screen.
 I had to struggle a bit with this, because I got several mounting errors. I kept trying with pushing S (Skip) and M (solve it manually) through the error messages, and reboots finally I got a read-only filesystem with a login.
+
+**If you still can't get into your VM you can try this awesome trick:
+
+https://superuser.com/questions/947942/unprocessed-orphan-inode-list-in-virtualbox-vm
 
 ### Login into VM
 If you have seen some kind of login screen, you can use these credentials:
