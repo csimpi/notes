@@ -13,7 +13,7 @@ If a Vagrant VM has crashed you can't start your VAGRANT machine with a simple v
 Go to Virtualbox, and start the VM from there. You will see what's happening, and maybe you will be able to reach some-kind of login screen.
 I had to struggle a bit with this, because I got several mounting errors. I kept trying with pushing S (Skip) and M (solve it manually) through the error messages, and reboots finally I got a read-only filesystem with a login.
 
-**If you still can't get into your VM you can try this awesome trick:
+__If you still can't get into your VM you can try this awesome trick:__
 
 https://superuser.com/questions/947942/unprocessed-orphan-inode-list-in-virtualbox-vm
 
