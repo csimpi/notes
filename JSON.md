@@ -5,8 +5,8 @@ How to get rid of annoying encoding issues...
 I just got an issue with saving an angularjs object to a MySQL database.
 
 - Client sent me CSV files for the database (UTF-8)
-- I imported it to the database
-- I was able to show the data from the database without any issue
+- I imported them to the database
+- I was able to retrieve the stored data from the database without any issue
 - I was able to convert the object to JSON string and convert it back to object before storing them in the database
 
 **Issues**
