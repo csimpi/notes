@@ -1,5 +1,5 @@
 # JSON
-How to get rid annoying encoding issues...
+How to get rid of annoying encoding issues...
 
 ### Case 1
 I just got an issue with saving an angularjs object to a MySQL database.
