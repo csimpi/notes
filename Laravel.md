@@ -22,3 +22,7 @@ if (!$user->save()) {
     abort(500, 'Could not save user.');
 }
 ```
+
+
+## Eloquent
+https://hackernoon.com/eloquent-relationships-cheat-sheet-5155498c209
