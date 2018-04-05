@@ -26,3 +26,10 @@ if (!$user->save()) {
 
 ## Eloquent
 https://hackernoon.com/eloquent-relationships-cheat-sheet-5155498c209
+
+### Nested Relatinships
+`->users->projects->tasks();`
+
+There's something really cool that would work, though: eager loading with nested relationships:
+
+`$company->branch/branches->users()->with('projects.tasks')->get();`
