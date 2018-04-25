@@ -33,3 +33,8 @@ https://hackernoon.com/eloquent-relationships-cheat-sheet-5155498c209
 There's something really cool that would work, though: eager loading with nested relationships:
 
 `$company->branch/branches->users()->with('projects.tasks')->get();`
+
+## Email sending
+https://www.tutorialspoint.com/laravel/laravel_sending_email.htm
+
+
