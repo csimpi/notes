@@ -37,4 +37,7 @@ There's something really cool that would work, though: eager loading with nested
 ## Email sending
 https://www.tutorialspoint.com/laravel/laravel_sending_email.htm
 
+## Godaddy GIT + Laravel Deploy
+http://blog.netgloo.com/2015/08/06/configuring-godaddys-shared-hosting-for-laravel-and-git/
+
 
