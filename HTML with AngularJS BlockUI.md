@@ -1,4 +1,6 @@
-I've found a workaround without changing the script, I'm going to share it to help others:
+The angular-block-ui module (https://github.com/McNull/angular-block-ui) by McNull is awesome but in general it can't accept HTML codes as message, I've found a workaround without changing the source code of the module:
+
+
 
 1. Set the default message to false (this way we can add custom html template).
 2. Set a new template that accepts custom variable (state.html).
